@@ -1,8 +1,3 @@
-<html>
-<head>
-	<title></title>
-<head>
-<body>
 <?php
 $questdb = file_get_contents("QuestDatabase.json");
 $json_a = json_decode($questdb, true);
@@ -42,5 +37,3 @@ foreach ($json_a['questLines'] as $questline) {
 }
 ?>
 </table>
-<hr>
-<body>
